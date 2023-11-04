@@ -1,0 +1,105 @@
+body{
+    background-color: white;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* This will vertically center your items in the container */
+    align-items: center; /* This will horizontally center your items */
+    background-color: wheat;
+    /* height: 100vh; You might want to set a height for the container, 100vh will take the full viewport height */
+    padding: 20px; /* Add some padding around */
+    box-sizing: border-box; 
+  }
+  
+  /* If you need to style individual quotes further: */
+  .flex-container > div {
+    color: black; /* Sets the text color */
+    margin: 10px 0; /* Adds some space between the quotes */
+    padding: 10px; /* Adds some padding inside each quote box */
+    width: 50%; /* Adjust the width as per your requirement */
+    height: 100vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Optional: Adds a slight shadow for a "card" effect */
+    border-radius: 4px; /* Optional: Rounds the corners of the quote boxes */
+  }
+
+
+/* If you need to style individual quotes further: */
+ .flex-container > div > p {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color:chocolate;
+    text-align: center;
+    width: 80%; /* Adjust the width as per your requirement */
+    }
+
+#one{
+    background-image: url('/images/1.jpg'); 
+}
+#two{
+    background-image: url('/images/2.jpg'); 
+}
+#three{
+    background-image: url('/images/3.jpg'); 
+}
+#four{
+    background-image: url('/images/4.jpg'); 
+}
+#five{
+    background-image: url('/images/5.jpg'); 
+}
+#six{
+    background-image: url('/images/6.jpg'); 
+}
+#seven{
+    background-image: url('/images/7.jpg'); 
+}
+#eight{
+    background-image: url('/images/8.jpg'); 
+}
+#nine{
+    background-image: url('/images/9.jpg'); 
+}
+#ten{
+    background-image: url('/images/10.jpg'); 
+}
+
+
+
+  
+
+
+.quote-container {
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+
+  .quote-image {
+    width: 100%;
+    display: flex;
+  }
+
+  .quote-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 80%; /* Adjust the width as per your requirement */
+  }
+
+  .quote-label {
+    position: absolute;
+    bottom: 0;
+    background-color: #4CAF50; /* This is a green color */
+    color: white;
+    width: 100%;
+    padding: 10px; /* Adjust the padding as per your requirement */
+    text-align: center;
+  }
